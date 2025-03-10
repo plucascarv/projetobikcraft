@@ -3,14 +3,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, ul, p {
+    margin: 0px;
+}
+
 ul {
     list-style: none;
-    margin: 0px;
     padding: 0px;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .header-bg {
@@ -88,4 +97,58 @@ a {
         font-size: 14px;
     }
 }
-@media (max-width:)
+
+.intro-bg {
+    background: #000;
+    color: #fff;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-content {
+    align-self: end;
+    padding-bottom: 80px;
+}
+
+.intro h1 {
+    margin-bottom: 32px;
+    font-size: 4rem;
+    line-height: 1.12;
+}
+
+.intro h1 span {
+    color: #fb0;
+}
+
+.intro p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+
+.intro a {
+    display: inline-block;
+    background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    padding: 16px 32px;
+    text-transform: uppercase;
+    color: #320;
+    font-size: 1.125rem;
+    line-height: 1.33;
+    font-weight: bold;
+}
+
+.intro a:hover {
+    background: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
+}
