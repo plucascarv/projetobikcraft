@@ -7,10 +7,7 @@
     padding: 16px 32px;
     text-transform: uppercase;
     color: #320;
-    font-size: 1.125rem;
-    line-height: 1.33;
-    font-family: 'Poppins';
-    font-weight: 600;
+    font: 600 1.125rem/1.35 'Poppins', sans-serif;
 }
 
 .button:hover {
