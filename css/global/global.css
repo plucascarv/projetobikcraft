@@ -9,7 +9,11 @@ img {
     display: block;
 }
 
-h1, ul, p {
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
+
+h1, ul, p, h2, h3, h4 {
     margin: 0px;
 }
 
